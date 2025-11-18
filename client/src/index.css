@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 @plugin "tailwindcss-animate";
 @import "tw-animate-css";
 
+html {
+  font-family: "Poppins", sans-serif;
+}
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
